@@ -1,0 +1,144 @@
+.container1 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.transitionContainer {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
+.transitionContainer:hover {
+    transition:all 250ms ease 50ms;
+    background-color: aqua;
+}
+
+.transitionContainer2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
+.transitionContainer2:hover {
+    transition:all 250ms ease-in 50ms;
+    background-color: aqua;
+}
+
+.transitionContainer3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
+.transitionContainer3:hover {
+    transition:all 250ms ease-in-out 50ms;
+    background-color: aqua;
+}
+
+.transitionContainer4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
+.transitionContainer4:hover {
+    transition:all 250ms linear 50ms;
+    background-color: aqua;
+}
+
+.transitionContainer5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
+.transitionContainer5:hover {
+    transition:all 250ms step-start 50ms;
+    background-color: aqua;
+}
+
+.transitionContainer6 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}
+
+.transitionContainer6:hover {
+    transition:all 250ms step-end 50ms;
+    background-color: aqua;
+}
+
+.container2 {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.spiekbriefje {
+    width: 400px;
+    padding: 1em;
+    position: relative;
+    background-color: rgb(200, 150, 250);
+    box-shadow: 0 0 4px hsla(0, 0%, 0%, .14), 0 3px 4px hsla(0, 0%, 0%, .12), 0 1px 5px hsla(0, 0%, 0%, .20);
+  }
+  
+  
+  .slider {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 90%;
+    height: calc(90% - 1em);
+    background-color: rgb(200, 150, 250);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    box-shadow: 0 0 4px hsla(0, 0%, 0%, .14), 0 3px 4px hsla(0, 0%, 0%, .12), 0 1px 5px hsla(0, 0%, 0%, .20);
+    /*transform-origin: left bottom; /* leuk in combinbatie met transform: rotate */
+    transition: all .5s ease;
+  }
+  
+  .spiekbriefje:hover .slider {
+    /*transform: translateX(400px);*/
+    transform: translateX(240px) translateY(-60px) rotate(.20turn);
+  }
+
+  .spiekbriefje2 {
+    width: 400px;
+    padding: 1em;
+    position: relative;
+    background-color: rgb(200, 150, 250);
+    box-shadow: 0 0 4px hsla(0, 0%, 0%, .14), 0 3px 4px hsla(0, 0%, 0%, .12), 0 1px 5px hsla(0, 0%, 0%, .20);
+  }
+  
+  
+  .slider2 {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 90%;
+    height: calc(90% - 1em);
+    background-color: rgb(200, 150, 250);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    box-shadow: 0 0 4px hsla(0, 0%, 0%, .14), 0 3px 4px hsla(0, 0%, 0%, .12), 0 1px 5px hsla(0, 0%, 0%, .20);
+    /*transform-origin: left bottom; /* leuk in combinbatie met transform: rotate */
+    transition: all .5s ease;
+  }
+  
+  .spiekbriefje2:hover .slider2 {
+    /*transform: translateX(400px);*/
+    transform: translateX(240px) translateY(-60px) rotate(.20turn);
+  }
+  
+  
